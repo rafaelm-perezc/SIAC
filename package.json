@@ -1,17 +1,25 @@
 {
   "name": "siac",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sistema Integrado de Administración Académica con soporte offline",
+  "main": "src/main/main.js",
   "scripts": {
+    "start": "electron .",
+    "dev:css": "tailwindcss -i ./src/renderer/css/input.css -o ./src/renderer/css/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafaelm-perezc/SIAC.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "electron",
+    "gestion-academica",
+    "offline-first",
+    "sqlite",
+    "firebase"
+  ],
+  "author": "Rafael Mauricio Pérez Campos",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
