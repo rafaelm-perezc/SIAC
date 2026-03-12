@@ -1,0 +1,34 @@
+{
+  "name": "siac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelm-perezc/SIAC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafaelm-perezc/SIAC/issues"
+  },
+  "homepage": "https://github.com/rafaelm-perezc/SIAC#readme",
+  "dependencies": {
+    "apexcharts": "^5.10.3",
+    "dotenv": "^17.3.1",
+    "firebase": "^12.10.0",
+    "sqlite3": "^6.0.1",
+    "sweetalert2": "^11.26.22"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "electron": "^34.0.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1"
+  }
+}
